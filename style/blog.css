@@ -85,7 +85,7 @@ header {
 }
 
 .text-part-description {
-    color:#444343;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -93,6 +93,48 @@ header {
     margin-right: 150px;
 
 }
-.description-text-part ul li{
+
+.description-text-part ul li {
     margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 70px;
+}
+
+.my-plan-header {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.my-plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.item-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.item-image{
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
 }

@@ -131,10 +131,45 @@ header {
     font-size: 25px;
     font-weight: 500;
 }
-.item-image{
+
+.item-image {
     height: 70px;
     width: 70px;
     align-items: center;
     margin-bottom: 20px;
     display: flex;
+}
+
+.my-plan {
+    margin: 80px;
+}
+
+.button-container {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('/images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+
+
+}
+
+.button-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 59px;
+    margin-left: 64px; margin-bottom: 25px;
+}
+
+.button-section {
+    display: flex;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin-left: 64px;
+    padding: 20px 36px;
 }
